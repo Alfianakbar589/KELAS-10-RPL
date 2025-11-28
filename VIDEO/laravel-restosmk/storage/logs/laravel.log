@@ -1,0 +1,674 @@
+[2025-11-28 07:33:49] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php:226)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(153): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Command\\Command.php(289): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Application.php(1103): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\restosmk\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-11-28 07:33:52] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php:226)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(153): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Command\\Command.php(289): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Application.php(1103): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\restosmk\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-11-28 07:33:54] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php:226)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(153): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Command\\Command.php(289): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Application.php(1103): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\restosmk\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\restosmk\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-11-28 07:41:45] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php:226)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(153): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Command\\Command.php(289): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(1103): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\laravel-restosmk\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-11-28 07:41:47] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php:226)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(153): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Command\\Command.php(289): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(1103): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\laravel-restosmk\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-11-28 07:41:50] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php:226)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(153): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Command\\Command.php(289): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(1103): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\laravel-restosmk\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-11-28 07:52:21] local.ERROR: syntax error, unexpected token "\" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"\\\" at C:\\xampp\\htdocs\\laravel-restosmk\\routes\\web.php:46)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(526): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(480): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(212): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(248): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(84): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(836): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(84): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(836): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(143): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-11-28 07:52:21] local.ERROR: syntax error, unexpected token "\" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"\\\" at C:\\xampp\\htdocs\\laravel-restosmk\\routes\\web.php:46)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(526): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(480): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(212): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(248): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(84): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(836): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(84): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(836): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(143): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-11-28 07:52:21] local.ERROR: syntax error, unexpected token "\" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"\\\" at C:\\xampp\\htdocs\\laravel-restosmk\\routes\\web.php:46)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(526): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(480): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(212): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(248): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(84): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(836): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(84): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(836): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(143): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(473): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(195): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-11-28 08:03:22] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php:226)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(153): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Command\\Command.php(289): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(1103): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\laravel-restosmk\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-11-28 08:03:24] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php:226)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(153): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Command\\Command.php(289): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(1103): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\laravel-restosmk\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-11-28 08:03:27] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php:226)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(153): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('columns', 'uri,name,action...')
+#1 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--columns=uri,n...')
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('--columns=uri,n...', true)
+#3 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Command\\Command.php(289): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(1103): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\symfony\\console\\Application.php(195): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\laravel-restosmk\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-11-28 13:16:23] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:17:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:18:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:19:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:20:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:21:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:22:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:23:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:24:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:25:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:26:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:27:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:28:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:29:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:30:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:31:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:32:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:33:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:34:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
+[2025-11-28 13:35:21] local.ERROR: Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\laravel-restosmk\composer.json): Failed to open stream: No such file or directory in C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1721
+Stack trace:
+#0 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 1721)
+#2 C:\xampp\htdocs\laravel-restosmk\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1721): file_get_contents('C:\\xampp\\htdocs...')
+#3 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\xampp\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: file_get_contents(C:\\xampp\\htdocs\\laravel-restosmk\\composer.json): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721
+Stack trace:
+#0 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_get_conten...', 'C:\\\\xampp\\\\htdocs...', 1721)
+#2 C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1721): file_get_contents('C:\\\\xampp\\\\htdocs...')
+#3 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#4 [internal function]: {closure}('C:\\\\xampp\\\\htdocs...')
+#5 Command line code(1): array_map(Object(Closure), Array)
+#6 {main}
+  thrown at C:\\xampp\\htdocs\\laravel-restosmk\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1721)
+[stacktrace]
+#0 {main}
+"} 
