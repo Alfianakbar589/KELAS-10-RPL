@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Umur</title>
+</head>
+<body>
+
+<input id="tahun">
+<button onclick="umur()">Hitung Umur</button>
+<p id="hasil"></p>
+<script>
+function umur(){
+    let tahun = document.getElementById("tahun").value;
+    document.getElementById("hasil").innerHTML = 2026 - tahun;
+}
+</script>
+
+</body>
+</html>
